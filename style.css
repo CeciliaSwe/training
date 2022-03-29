@@ -10,7 +10,7 @@
     left: 0;
     height: 100vh;
     z-index: 999;
-    background: #7386D5;
+    background: #003b49;
     color: #fff;
     transition: all 0.3s;
 }
@@ -29,6 +29,10 @@ a[data-toggle="collapse"] {
     top: 50%;
     right: 20px;
     transform: translateY(-50%);
+}
+
+.dropdown-header {
+    font-size: medium
 }
 
 /*
@@ -58,14 +62,14 @@ a, a:hover, a:focus {
 
 #sidebar {
     /* don't forget to add all the previously mentioned styles here too */
-    background: #7386D5;
+    background: #003b49;
     color: #fff;
     transition: all 0.3s;
 }
 
 #sidebar .sidebar-header {
     padding: 20px;
-    background: #6d7fcc;
+    background: #003b49;
 }
 
 #sidebar ul.components {
@@ -84,18 +88,36 @@ a, a:hover, a:focus {
     display: block;
 }
 #sidebar ul li a:hover {
-    color: #7386D5;
+    color: #003b49;
     background: #fff;
 }
 
 #sidebar ul li.active > a, a[aria-expanded="true"] {
     color: #fff;
-    background: #6d7fcc;
+    background: #003b49;
 }
 ul ul a {
     font-size: 0.9em !important;
     padding-left: 30px !important;
-    background: #6d7fcc;
+    background: #003b49;
+}
+
+#powerpoint {
+
+    border: solid 1px black;
+}
+
+#video {
+
+    border: solid 1px black;
+}
+
+iframe {
+    border: 3px double black;
+    height: 80%;
+    width: 80%;
+    margin: 2vh auto;
+    display: block;
 }
 
 @media (max-width: 768px) {
